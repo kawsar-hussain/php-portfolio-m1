@@ -201,6 +201,7 @@ main {
 
 .my-skills {
   display: flex;
+  justify-content: space-around;
   gap: 24px;
   text-align: left;
   padding-top: 20px;
