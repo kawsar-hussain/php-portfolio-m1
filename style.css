@@ -54,7 +54,8 @@ header {
   background-image: url("./images/developer.png"), url("./images/header_bg.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: left top, bottom right;
+  /* background-position: calc(0% + 50px) top, bottom right; */
+  background-position: left 50px top 10px, bottom right;
 }
 
 /* nav start here */
@@ -226,8 +227,6 @@ main {
 /* what i do end */
 
 /* summary start here */
-.summary {
-}
 
 .summary-title {
   padding: 120px 0 50px;
